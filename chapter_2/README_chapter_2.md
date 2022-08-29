@@ -9,6 +9,9 @@ It can be found into file **simple_message.py**, which is located into root of f
 ```sh
 my_age = 24
 print(my_age)
+
+OUTPUT:
+24
 ```
 
 ## Exercise 2-2 Simple Messages
@@ -21,6 +24,10 @@ print(my_day)
 
 my_day = 'bearable'
 print(my_day)
+
+OUTPUT:
+awful
+bearable
 ```
 
 ## Exercise 2-3 Personal Message
@@ -31,6 +38,9 @@ It can be found into file **personal_message.py**, which is located into root of
 name = 'olha babenko'
 
 print(f'Hello {name}, how is Python learning going?')
+
+OUTPUT:
+Hello olha babenko, how is Python learning going?
 ```
 
 ## Exercise 2-4 Name Cases
@@ -43,6 +53,11 @@ name = 'olha babenko'
 print(name.title()) 
 print(name.upper())
 print(name.lower())
+
+OUTPUT:
+Olha Babenko
+OLHA BABENKO
+olha babenko
 ```
 
 ## Exercise 2-5 Famous Quote
@@ -52,6 +67,9 @@ It can be found into file **famous_quote.py**, which is located into root of fol
 - 1st way
 ```sh
 print('Epicurus once said, "When we are, death is not come, and, when death is come, we are not."')
+
+OUTPUT:
+Epicurus once said, "When we are, death is not come, and, when death is come, we are not."
 ```
 
 - 2nd way
@@ -61,6 +79,9 @@ quote = 'When we are, death is not come, and, when death is come, we are not.'
 author = 'Epicurus'
 
 print(f'{author} once said, "{quote}"')
+
+OUTPUT:
+Epicurus once said, "When we are, death is not come, and, when death is come, we are not."
 ```
 
 - 3rd way
@@ -69,6 +90,9 @@ print(f'{author} once said, "{quote}"')
 quotation = f'{author} once said, "{quote}"'
 
 print(quotation)
+
+OUTPUT:
+Epicurus once said, "When we are, death is not come, and, when death is come, we are not."
 ```
 
 ## Exercise 2-6 Famous Quote 2
@@ -80,6 +104,9 @@ famous_person = 'Epicurus'
 message = f'{famous_person} once said, "When we are, death is not come, and, when death is come, we are not."'
 
 print(message)
+
+OUTPUT:
+Epicurus once said, "When we are, death is not come, and, when death is come, we are not."
 ```
 
 ## Exercise 2-7 Stripping Names
@@ -94,6 +121,14 @@ print(name)
 print(name.lstrip())
 print(name.rstrip())
 print(name.strip())
+
+OUTPUT:
+ 	Olha babenko
+ 
+Olha babenko
+ 
+ 	Olha babenko
+Olha babenko
 ```
 
 ## Exercise 2-8 Number Eight
@@ -101,10 +136,16 @@ print(name.strip())
 It can be found into file **number_eight.py**, which is located into root of folder *chapter_2*.
 
 ```sh
-print(4+4)
-print(98-90)
-print(0.125*64)
-print(72/9)
+print(4 + 4)
+print(98 - 90)
+print(0.125 * 64)
+print(72 / 9)
+
+OUTPUT:
+8
+8
+8.0
+8.0
 ```
 
 ## Exercise 2-9 Favourite Number
@@ -116,6 +157,9 @@ favourite_number = 5.6
 message = f'My favourite number is {favourite_number}.'
 
 print(message)
+
+OUTPUT:
+My favourite number is 5.6.
 ```
 
 ## Exercise 2-10 Adding Comments
@@ -146,7 +190,7 @@ print(name.rstrip()) # printing with deleting whitespaces on the right part
 print(name.strip()) # printing with deleting whitespaces from all the word
 ```
 
-## Exercise 2-11 Zan of Python
+## Exercise 2-11 Zen of Python
 
 > The Zen of Python, by Tim Peters
 
