@@ -375,4 +375,5 @@ Scroll through it, there are a lot of interesting stuff.
 
 ## Exercise 4-15 Code Review
 
-![I added the vertical rulers for three points: 80, 120, 160.](/Users/olhababenko/Desktop/screenshot.png 'Screenshot of the Workspace')
+![On the image, you can't see the ruler lines, are demonstrated](/Users/olhababenko/Desktop/screenshot.jpeg 'Screenshot of the Workspace')
+*I added the vertical rulers for three points: 80, 120, 160.*
