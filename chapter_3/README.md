@@ -18,7 +18,7 @@ print(names[-1])
 
 **OUTPUT:**
 
-```python
+```
 Daria
 Dmytro
 Vladyslav
@@ -46,7 +46,7 @@ print(message_4)
 
 **OUTPUT:** 
 
-```python
+```
 See ya, Daria!
 See ya, Dmytro!
 See ya, Vladyslav!
@@ -67,7 +67,7 @@ print(f'i think {cars[3].title()} is one of the safest cars.')
 
 **OUTPUT:**
 
-```python
+```
 i want to have Honda as my first car.
 i would like to buy Audi in a couple of years.
 Ford has got some pretty nice models.
@@ -90,7 +90,7 @@ print(message_2)
 
 **OUTPUT:**
 
-```python
+```
 Good Lord, Nikola Tesla, you look so thin! Please, attend my dinner on Friday!
 Hi! Long time no see, Fritz Perls, let's have a chat about unclosed geshtalts of yours!
 Good to see you again, Grandmother! How is your sugar level?
@@ -115,7 +115,7 @@ print(message_2)
 
 **OUTPUT:**
 
-```python
+```
 Unfortunately, Fritz Perls won't make it in time!
 
 Good Lord, Nikola Tesla, you look so thin! Please, attend my dinner on Friday!
@@ -154,7 +154,7 @@ print(message_5)
 
 **OUTPUT:**
 
-```python
+```
 Unfortunately, Fritz Perls won't make it in time!
 
 I have just found the bigger table!
@@ -220,7 +220,7 @@ print(guests)
 
 **OUTPUT:**
 
-```python
+```
 Table won't make it in time, so i can invite only two people. Please, accept my sincere appologies!
 
 Hieronymus Bosch was removed from the list...
@@ -264,7 +264,7 @@ print(locations)
 
 **OUTPUT:**
 
-```python
+```
 ['Florence', 'The Faroe Islands', 'New York', 'Barcelona', 'The Grand Canyon', 'Norway', 'Amsterdam', 'Phuket']
 ['Amsterdam', 'Barcelona', 'Florence', 'New York', 'Norway', 'Phuket', 'The Faroe Islands', 'The Grand Canyon']
 
@@ -298,7 +298,7 @@ print(f'\nTo the dinner were invited {len(guests)} people.')
 
 **OUTPUT:**
 
-```python
+```
 Good Lord, Nikola Tesla, you look so thin! Please, attend my dinner on Friday!
 Hi! Long time no see, Fritz Perls, let's have a chat about unclosed geshtalts of yours!
 Good to see you again, Grandmother! How is your sugar level?
@@ -348,7 +348,7 @@ print('\ni have at least ' + str(items_amount) + ' items with myself.')
 ```
 **OUTPUT:**
 
-```python
+```
 ['ring', 'bracelet', 'earings', 'watch', 'glasses', 'parfume', 'laptop', 'earpods']
 ['ring', 'bracelet', 'earings', 'watch', 'glasses', 'parfume', 'laptop', 'earpods', 'phone']
 ['ring', 'bracelet', 'necklace', 'earings', 'watch', 'glasses', 'parfume', 'laptop', 'earpods', 'phone']
