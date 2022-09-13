@@ -325,3 +325,11 @@ for ordinary_number in ordinary_numbers:
 8th
 9th
 ```
+
+## Exercise 5-12 Styling if statements
+
+Codes from the previous exercises were examined and updated due to the requiremets of the task.
+
+## Exercise 5-13 Your Ideas
+
+I would like to create a tile-matching game :)
