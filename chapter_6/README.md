@@ -277,7 +277,6 @@ for name, locations in favourite_places.items():
         print(f'\t{location.capitalize()}')
 ```
 
-
 **OUTPUT:**
 
 ```
@@ -289,4 +288,93 @@ Ivan`s favourite locations are:
 	Lviv
 Natasha`s favourite location is:
 	Zagreb
+```
+
+## Exercise 6-10 Favourite Numbers
+
+```python
+favourite_numbers = {
+    'dasha': [],
+    'natasha': [8, 4367, 37, 21,],
+    'ivan': [69, 1,],
+    'dima': [124, 54],
+    'marko': [1,]}
+
+for name, numbers in favourite_numbers.items():
+    if len(numbers) < 1:
+        print(f'{name.capitalize()} does not have a favourite number.')
+    elif len(numbers) > 1:
+        print(f'{name.capitalize()}`s favourite numbers are:')
+    else:
+        print(f'{name.capitalize()}`s favourite number is')
+    for number in numbers:
+        print(f'{number}')
+```
+
+**OUTPUT:**
+```
+Dasha does not have a favourite number.
+Natasha`s favourite numbers are:
+8
+4367
+37
+21
+Ivan`s favourite numbers are:
+69
+1
+Dima`s favourite numbers are:
+124
+54
+Marko`s favourite number is
+1
+```
+
+## Exercise 6-11 Cities
+
+```python
+cities = {
+    'kyiv': {
+        'country': 'ukraine',
+        'population': 2.96,
+        'area': 839,
+        'fact': 'was founded in 482 AD',
+        },
+    'zagreb': {
+        'country': 'croatia',
+        'population': 0.77,
+        'area': 641,
+        'fact': 'has the shortest time for a public' 
+            'transport vehicle in the world',
+        },
+    'edinburgh': {
+        'country': 'scotland',
+        'population': 0.51,
+        'area': 264,
+        'fact': 'is the greenest city in the UK',
+        }
+    }
+
+for city, city_info in cities.items():
+    print(f'\tCity:\n\t{city.capitalize()}')
+    country = city_info['country']
+    population = city_info['population']
+    area = city_info['area']
+    fact = city_info['fact']
+
+    print(f'{city.capitalize()} is located in {country.capitalize()}. '
+        f'Population of the city is {population} millions people, '
+        f'while area is {area} km\u00B2. {city.capitalize()} {fact}.')
+```
+
+**OUTPUT:**
+```
+    City:
+	Kyiv
+Kyiv is located in Ukraine. Population of the city is 2.96 millions people, while area is 839 km². Kyiv was founded in 482 AD.
+	City:
+	Zagreb
+Zagreb is located in Croatia. Population of the city is 0.77 millions people, while area is 641 km². Zagreb has the shortest time for a publictransport vehicle in the world.
+	City:
+	Edinburgh
+Edinburgh is located in Scotland. Population of the city is 0.51 millions people, while area is 264 km². Edinburgh is the greenest city in the UK.
 ```
