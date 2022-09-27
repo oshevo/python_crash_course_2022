@@ -378,3 +378,62 @@ Zagreb is located in Croatia. Population of the city is 0.77 millions people, wh
 	Edinburgh
 Edinburgh is located in Scotland. Population of the city is 0.51 millions people, while area is 264 km². Edinburgh is the greenest city in the UK.
 ```
+
+## Exercise 6-12 Extensions
+
+```python
+users = {
+    'aeinstein': {
+        'first': 'albert',
+        'last': 'einstein',
+        'location': 'princeton',
+        },
+    'mcurie': {
+        'first': 'marie',
+        'last': 'curie',
+        'location': 'paris',
+        },
+}
+
+user = 'sfreud'
+
+if user not in users.keys():
+    print(f'user "{user}" is not found. please, register first!')
+else:
+    for username, user_info in users.items():
+        if username == user:
+            print(f"\nUsername: {username}")
+            full_name = f"{user_info['first']} {user_info['last']}"
+            location = user_info['location']
+        
+            print(f"\tFull name: {full_name.title()}")
+            print(f"\tLocation: {location.title()}")
+
+users['sfreud'] = {'first': 'sigmund', 
+                    'last': 'freud', 
+                    'location': 'freiberg'
+                    }
+
+new_user = 'sfreud'
+
+if new_user not in users.keys():
+    print(f'user "{new_user}" is not found. please, register first!')
+else:
+    print(f'\nthank you for the registration, {new_user}!')
+    for username, user_info in users.items():
+        if username == new_user:
+            full_name = f"{user_info['first']} {user_info['last']}"
+            location = user_info['location']
+        
+            print(f"\tFull name: {full_name.title()}")
+            print(f"\tLocation: {location.title()}")
+```
+
+**OUTPUT**
+```
+user "sfreud" is not found. please, register first!
+
+thank you for the registration, sfreud!
+	Full name: Sigmund Freud
+	Location: Freiberg
+```
